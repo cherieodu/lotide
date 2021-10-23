@@ -13,7 +13,7 @@ const eqArrays = (list1, list2) => {
 
 const assertArraysEqual = (array1, array2) => {
   let result = eqArrays(array1, array2);
-  result === true? console.log("Both arrays are equal.") : console.log("They aren't equal.")
+  result === true ? console.log("Both arrays are equal.") : console.log("They aren't equal.");
 };
 
 let array1 = process.argv[2];
