@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@cherieoduwole/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lotide - A copy of the Lodash library created for educational purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/cherieodu/lotide.git"
   },
-  "author": "",
+  "author": "Chérie Oduwole",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/cherieodu/lotide/issues"
