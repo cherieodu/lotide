@@ -11,6 +11,5 @@ const flatten = (array) => {
   } return flattened;
 };
 
-// console.log(flatten([1, 2, ["yes", 4], 5, [6], ["no", "of course"]]));
 
 module.exports = flatten;
