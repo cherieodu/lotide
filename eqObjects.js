@@ -1,4 +1,3 @@
-const assertEqual = require('./assertEqual');
 const eqArrays = require('./eqArrays');
 
 const eqObjects = (object1, object2) => {
@@ -31,10 +30,5 @@ const eqObjects = (object1, object2) => {
 
 };
 
-// const ab = { a: "1", b: [1, 2], c : 1};
-// const ba = { b: [1, 2], a: "1" };
-
-// //testing
-// assertEqual(eqObjects(ab, ba), false);
 
 module.exports = eqObjects;
